@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    padding: 3rem;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 16rem;
+    height: 24rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.item{
+    font-size: 1.75rem;
+}
+
+.container-main-char{
+    text-align: center;
+    align-self: center;
+
+    .main-char {
+        font-size: 9rem;
+    }
+}
+
+.container-last-char {
+    text-align: right;
+    
+}
+
+
+
